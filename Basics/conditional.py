@@ -72,5 +72,119 @@ else:
         print("Very Hot")"""
         
         
+"""print("Welcome! We are Toby's. Please fill the necessary information below so we can proceed further :) ")
+
+name = input("Enter your name: ").strip().lower()        
+age = input("Enter your age as per the ID: ")
+password = input("Enter the 8 character password: ")
+
+if age.isdigit():
+    age = int(age)
+    
+    if age >=18:
+        print("Allowed")
+    else: 
+        print("Not Allowed") 
+else:
+    print("Please enter a valid age.")"""
+    
+
+"""password = input("Enter the 8 character password: ")
+
+if len(password) < 8:
+    print("Weak Password.")
+elif password.isalpha():
+    print("Add digits to make it stronger.")
+elif password.isdigit():
+    print("Add letters to make it stronger.")
+else:
+    print("Strong Password.")"""            
+
+
+"""num = input("Enter a number: ")
+
+try:
+    num = float(num)
+    if num > 0:
+        print(f"{num} is a positive number.")
+    elif num < 0:
+        print(f"{num} is a negative number.")
+    else:
+        print(f"{num} is zero.")
+except ValueError:
+    print("Please enter a valid number.")"""
+    
+"""print("check if a number is divisible by 3 and 5")
+
+num = int(input("Enter a number: ")) 
+
+if num % 3 == 0 and num % 5 == 0:
+    print("Jackpot! The number is divisible by both 3 and 5.")
+elif num%3 == 0:
+    print("The number is only divisible by 3.")  
+elif num%5 == 0:
+    print("The number is only divisible by 5.")
+else:
+    print("The number is not divisible by either 3 or 5.")"""
+    
+"""import random    
+print("Stop and check the traffic light color!")
+
+light_color = random.randint(0, 2)
+     # red: 0, yellow: 1, green: 2
+
+if light_color == 0:
+    print("Red light! Stop.")
+elif light_color == 1:
+    print("Yellow light! Slow down.")
+else:
+    print("Green light! Go.")"""     
+     
+"""print("Welcome to Syne-plex! Please enter your age to get the Discount or price on your movie ticket.")  
+
+age = input("Enter your age: ")
+
+if not age.isdigit():
+    print("Please enter a valid age.")
+    
+else:
+    age = int(age)
+    
+    if age < 5:
+        print("Free!")
         
-                                                   
+    elif  age >= 5 and age < 18:
+        print("Pay 150/-.")
+        
+    elif age >= 18 and age <= 60:
+        student_status = input("Are you a student? (yes/no): ").strip().lower()
+        
+        if student_status == "yes":
+            print("Pay", 300-(300*0.2), "/-.")
+        else:
+            print("Pay 300/-.")
+            
+    else:
+        print("Pay 100/-.")"""
+
+
+"""print("Triangle Validator")
+
+a, b, c = map(float, input(
+    "Enter 3 sides separated by spaces: "
+).split())
+
+if (a + b > c) and (a + c > b) and (b + c > a):
+
+    if a == b == c:
+        print("Equilateral Triangle")
+
+    elif a == b or b == c or a == c:
+        print("Isosceles Triangle")
+
+    else:
+        print("Scalene Triangle")
+
+else:
+    print("Invalid Triangle")"""                                              
+       

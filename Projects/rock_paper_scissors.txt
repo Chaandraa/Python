@@ -1,0 +1,513 @@
+# Rock Paper Scissors Game – Project Report
+
+## Project Title
+
+Rock Paper Scissors Game using Python
+
+---
+
+# 1. Project Objective
+
+The objective of this project is to create an interactive game where a user competes against the computer.
+
+The system:
+
+* Accepts player choices
+* Randomly generates computer choices
+* Compares outcomes
+* Tracks wins
+* Displays results
+
+This project strengthens logical thinking and interactive programming.
+
+---
+
+# 2. Problem Statement
+
+Traditional programs execute once and terminate.
+
+This project creates a continuously running interactive system that:
+
+* Handles repeated user actions
+* Simulates computer decisions
+* Maintains scores
+
+---
+
+# 3. Features Implemented
+
+✔ User input
+
+✔ Computer random selection
+
+✔ Input validation
+
+✔ Score tracking
+
+✔ Winner determination
+
+✔ Replay through loop
+
+✔ Quit option
+
+---
+
+# 4. Concepts Used
+
+---
+
+## A. Importing Modules
+
+Used:
+
+```python
+import random
+```
+
+Purpose:
+Generate unpredictable computer moves.
+
+Question answered:
+How does a program behave differently each time?
+
+---
+
+## B. Variables
+
+Used:
+
+```python
+user_wins
+computer_wins
+random_number
+computer_pick
+```
+
+Purpose:
+Store changing game values.
+
+Question answered:
+How do programs remember information?
+
+---
+
+## C. Lists
+
+Used:
+
+```python
+options=["rock","paper","scissors"]
+```
+
+Purpose:
+Store multiple values.
+
+Question answered:
+How do we organize related data?
+
+---
+
+## D. Infinite Loop
+
+Used:
+
+```python
+while True:
+```
+
+Purpose:
+Run game repeatedly.
+
+Question answered:
+How can a game continue until user exits?
+
+---
+
+## E. User Input
+
+Used:
+
+```python
+input()
+```
+
+Purpose:
+Allow interaction.
+
+Question answered:
+How do users communicate with programs?
+
+---
+
+## F. String Manipulation
+
+Used:
+
+```python
+.lower()
+```
+
+Purpose:
+Normalize input.
+
+Example:
+
+ROCK
+
+↓
+
+rock
+
+Question answered:
+How can programs ignore capitalization?
+
+---
+
+## G. Membership Operator
+
+Used:
+
+```python
+if user_input not in options:
+```
+
+Purpose:
+Validate input.
+
+Question answered:
+How do we allow only accepted values?
+
+---
+
+## H. Random Number Generation
+
+Used:
+
+```python
+random.randint(0,2)
+```
+
+Purpose:
+Select computer move.
+
+Question answered:
+How can computers simulate randomness?
+
+---
+
+## I. Indexing
+
+Used:
+
+```python
+computer_pick=options[random_number]
+```
+
+Purpose:
+Access list values.
+
+Question answered:
+How do we retrieve specific elements?
+
+---
+
+## J. Conditional Statements
+
+Used:
+
+```python
+if
+elif
+else
+```
+
+Purpose:
+Decide game result.
+
+Question answered:
+How do programs make decisions?
+
+---
+
+## K. Comparison Operators
+
+Used:
+
+```python
+==
+```
+
+Purpose:
+Compare moves.
+
+Question answered:
+How can computers evaluate conditions?
+
+---
+
+## L. Counters
+
+Used:
+
+```python
+user_wins +=1
+computer_wins +=1
+```
+
+Purpose:
+Track score.
+
+Question answered:
+How do programs maintain progress?
+
+---
+
+## M. Break Statement
+
+Used:
+
+```python
+break
+```
+
+Purpose:
+Exit game.
+
+Question answered:
+How can loops stop?
+
+---
+
+## N. Continue Statement
+
+Used:
+
+```python
+continue
+```
+
+Purpose:
+Ignore invalid entries.
+
+Question answered:
+How can we restart loop execution?
+
+---
+
+# 5. Program Workflow
+
+START
+
+↓
+
+Initialize Scores
+
+↓
+
+Ask User Input
+
+↓
+
+Quit?
+
+YES
+
+↓
+
+END
+
+NO
+
+↓
+
+Validate Choice
+
+↓
+
+Computer Random Move
+
+↓
+
+Compare Choices
+
+↓
+
+Update Score
+
+↓
+
+Display Result
+
+↓
+
+Repeat
+
+---
+
+# 6. Questions This Project Answers
+
+How do loops work?
+
+How does randomness work?
+
+How do lists store values?
+
+How do games keep score?
+
+How do computers compare choices?
+
+How does input validation work?
+
+How do repeated systems operate?
+
+How are game rules implemented?
+
+---
+
+# 7. Computational Thinking
+
+Input
+
+↓
+
+Validation
+
+↓
+
+Random Processing
+
+↓
+
+Decision
+
+↓
+
+Score Update
+
+↓
+
+Output
+
+---
+
+# 8. Strengths
+
+Interactive
+
+Simple logic
+
+Good beginner project
+
+Reusable structure
+
+Easy to upgrade
+
+---
+
+# 9. Current Limitations
+
+Repeated conditions
+
+No difficulty
+
+No GUI
+
+No history
+
+No leaderboard
+
+No statistics
+
+No functions
+
+---
+
+# 10. Next Level Upgrades
+
+LEVEL 1
+Functions
+
+play_round()
+
+show_score()
+
+---
+
+LEVEL 2
+Dictionary Rules
+
+Store winner logic
+
+---
+
+LEVEL 3
+Best of 5 Mode
+
+---
+
+LEVEL 4
+Leaderboard
+
+---
+
+LEVEL 5
+File Handling
+
+Save scores
+
+---
+
+LEVEL 6
+OOP Version
+
+Classes:
+
+Player
+
+Game
+
+ScoreBoard
+
+---
+
+LEVEL 7
+GUI
+
+Tkinter
+
+---
+
+LEVEL 8
+Web Version
+
+HTML
+
+CSS
+
+JS
+
+Backend Python
+
+---
+
+# 11. Learning Outcomes
+
+After this project:
+
+Understand loops
+
+Understand randomness
+
+Practice conditions
+
+Learn validation
+
+Build game logic
+
+Improve debugging
+
+---
+
+# 12. Resume Description
+
+Developed an interactive Rock Paper Scissors game in Python using loops, conditionals, lists, random number generation, score tracking, and input validation to simulate gameplay and strengthen programming fundamentals.

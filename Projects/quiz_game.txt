@@ -1,0 +1,389 @@
+# Quiz Game Project Report (Python)
+
+## Project Title
+
+Terminal-Based Quiz Game using Python
+
+---
+
+# 1. Project Objective
+
+The objective of this project is to create an interactive quiz application where users answer multiple questions and receive a score and percentage at the end.
+
+This project demonstrates the application of core Python concepts including decision making, user input handling, variables, string manipulation, and program flow control.
+
+---
+
+# 2. Problem Statement
+
+Traditional learning methods can become repetitive and less engaging.
+
+This project solves that by creating a command-line quiz system that:
+
+* Interacts with users
+* Evaluates responses
+* Tracks scores
+* Displays performance
+
+---
+
+# 3. Features Implemented
+
+✔ Welcome screen
+
+✔ User start confirmation
+
+✔ Multiple quiz questions
+
+✔ Answer validation
+
+✔ Score tracking
+
+✔ Final result generation
+
+✔ Percentage calculation
+
+---
+
+# 4. Python Concepts Used
+
+## A. Input Handling
+
+Used:
+input()
+
+Purpose:
+Collect answers from users.
+
+Example:
+User enters:
+yes
+def
+Object
+
+---
+
+## B. Conditional Statements
+
+Used:
+if
+else
+
+Purpose:
+Compare answers and decide correctness.
+
+Example:
+
+Correct
+↓
+
+Increase Score
+
+Else
+
+↓
+
+Show Correct Answer
+
+---
+
+## C. Variables
+
+Used:
+
+playing
+
+score
+
+answer
+
+Purpose:
+Store game data.
+
+---
+
+## D. String Manipulation
+
+Used:
+
+.lower()
+
+Purpose:
+Convert user input into lowercase for easier comparison.
+
+Example:
+
+DEF
+
+↓
+
+def
+
+---
+
+## E. Arithmetic Operations
+
+Used:
+
+score += 1
+
+(score / total_questions) * 100
+
+Purpose:
+Calculate total score and percentage.
+
+---
+
+## F. Program Flow Control
+
+Used:
+
+quit()
+
+Purpose:
+Exit program if user chooses not to play.
+
+---
+
+# 5. Program Workflow
+
+START
+
+↓
+
+Display Welcome Message
+
+↓
+
+Ask User to Play
+
+↓
+
+If NO
+
+↓
+
+Exit
+
+↓
+
+If YES
+
+↓
+
+Display Questions
+
+↓
+
+Validate Answers
+
+↓
+
+Update Score
+
+↓
+
+Calculate Result
+
+↓
+
+END
+
+---
+
+# 6. Topics Combined in this Project
+
+Python Basics
+
+↓
+
+Variables
+
+↓
+
+Input Output
+
+↓
+
+Conditional Statements
+
+↓
+
+Strings
+
+↓
+
+Arithmetic
+
+↓
+
+Game Logic
+
+↓
+
+User Interaction
+
+↓
+
+Program Structure
+
+---
+
+# 7. Strengths of Current Version
+
+Simple
+
+Interactive
+
+Easy to expand
+
+Good beginner project
+
+Readable code
+
+---
+
+# 8. Limitations
+
+Questions are hardcoded
+
+No randomization
+
+No levels
+
+No saved scores
+
+No timer
+
+No data storage
+
+Repeated code blocks
+
+---
+
+# 9. Next Level Development Plan
+
+LEVEL 1
+Functions
+
+Create:
+
+ask_question()
+
+show_score()
+
+Benefit:
+Reduce repetition
+
+---
+
+LEVEL 2
+Lists + Dictionaries
+
+Store:
+
+Question
+
+Answer
+
+Benefit:
+Dynamic questions
+
+---
+
+LEVEL 3
+Loops
+
+Use:
+
+for loop
+
+Benefit:
+Unlimited questions
+
+---
+
+LEVEL 4
+File Handling
+
+Store:
+
+High Score
+
+Question Bank
+
+---
+
+LEVEL 5
+OOP
+
+Create Classes:
+
+QuizGame
+
+Question
+
+Player
+
+---
+
+LEVEL 6
+Exception Handling
+
+Handle:
+Empty input
+
+Wrong values
+
+---
+
+LEVEL 7
+Difficulty Levels
+
+Easy
+
+Medium
+
+Hard
+
+---
+
+LEVEL 8
+Timer
+
+Example:
+10 seconds/question
+
+---
+
+LEVEL 9
+Leaderboard
+
+Store:
+Name
+
+Score
+
+Rank
+
+---
+
+LEVEL 10
+GUI / Web Version
+
+Frontend:
+HTML
+CSS
+JavaScript
+
+Backend:
+Python
+
+Database:
+MySQL
+
+---
+
+# 10. Resume Description
+
+Developed an interactive terminal-based Quiz Game in Python implementing user input handling, conditional logic, score tracking, and result calculation while strengthening understanding of Python fundamentals and application flow.

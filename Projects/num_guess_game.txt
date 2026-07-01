@@ -1,0 +1,511 @@
+# Number Guessing Game Project Report (Python)
+
+## Project Title
+
+Number Guessing Game using Python
+
+---
+
+# 1. Project Objective
+
+The objective of this project is to create an interactive guessing game where the computer generates a random number and the user tries to predict it in minimum attempts.
+
+The project focuses on improving:
+
+* Logical thinking
+* Input validation
+* Loop control
+* Decision making
+* User interaction
+
+---
+
+# 2. Problem Statement
+
+Traditional beginner programs are static and do not simulate real user interaction.
+
+This project solves that by:
+
+* Generating unpredictable values
+* Accepting user guesses
+* Providing feedback
+* Counting attempts
+
+The user continues guessing until the correct answer is found.
+
+---
+
+# 3. Features Implemented
+
+✔ User chooses difficulty range
+
+✔ Random number generation
+
+✔ Input validation
+
+✔ Infinite game loop
+
+✔ Guess counter
+
+✔ Higher/lower hints
+
+✔ Final result display
+
+---
+
+# 4. Python Concepts Used
+
+---
+
+## A. Importing Modules
+
+Used:
+
+```python
+import random
+```
+
+Purpose:
+Import Python's built-in random module.
+
+Concept learned:
+Modules
+
+Example:
+Generate random values.
+
+---
+
+## B. User Input
+
+Used:
+
+```python
+input()
+```
+
+Purpose:
+Collect data from user.
+
+Examples:
+Range input
+
+Guess input
+
+---
+
+## C. Input Validation
+
+Used:
+
+```python
+isdigit()
+```
+
+Purpose:
+Verify user entered numeric values.
+
+Example:
+
+"100"
+
+↓
+
+Valid
+
+"abc"
+
+↓
+
+Invalid
+
+Concept:
+Data validation
+
+---
+
+## D. Type Conversion
+
+Used:
+
+```python
+int()
+```
+
+Purpose:
+Convert string into integer.
+
+Example:
+
+"20"
+
+↓
+
+20
+
+Concept:
+Type casting
+
+---
+
+## E. Conditional Statements
+
+Used:
+
+```python
+if
+elif
+else
+```
+
+Purpose:
+Control program flow.
+
+Examples:
+
+Correct Guess
+
+↓
+
+Break
+
+Guess Too High
+
+↓
+
+Message
+
+Guess Too Low
+
+↓
+
+Message
+
+Concept:
+Decision making
+
+---
+
+## F. Random Number Generation
+
+Used:
+
+```python
+random.randint()
+```
+
+Purpose:
+Generate unpredictable numbers.
+
+Example:
+
+Random:
+54
+
+Concept:
+Simulation
+
+---
+
+## G. Loops
+
+Used:
+
+```python
+while True
+```
+
+Purpose:
+Continue game until correct answer.
+
+Concept:
+Iteration
+
+---
+
+## H. Loop Control
+
+Used:
+
+```python
+break
+continue
+```
+
+Purpose:
+
+break:
+Exit game
+
+continue:
+Skip invalid input
+
+Concept:
+Flow control
+
+---
+
+## I. Arithmetic Operations
+
+Used:
+
+```python
+guesses += 1
+```
+
+Purpose:
+Track attempts.
+
+Concept:
+Counters
+
+---
+
+# 5. Program Workflow
+
+START
+
+↓
+
+Ask Range
+
+↓
+
+Validate Input
+
+↓
+
+Generate Random Number
+
+↓
+
+User Guess
+
+↓
+
+Validate Guess
+
+↓
+
+Compare
+
+↓
+
+Correct?
+
+YES
+
+↓
+
+Display Attempts
+
+↓
+
+END
+
+NO
+
+↓
+
+Give Hint
+
+↓
+
+Repeat
+
+---
+
+# 6. Questions Answered Through This Project
+
+How to generate random values?
+
+How to validate user input?
+
+How to convert data types?
+
+How to repeat operations?
+
+How to stop loops?
+
+How to compare values?
+
+How to count attempts?
+
+How to build game logic?
+
+How to create user interaction?
+
+---
+
+# 7. Computational Thinking Used
+
+Input
+
+↓
+
+Validation
+
+↓
+
+Processing
+
+↓
+
+Decision
+
+↓
+
+Output
+
+---
+
+# 8. Strengths
+
+Interactive
+
+Dynamic
+
+Beginner-friendly
+
+Uses real logic
+
+Reusable structure
+
+Good debugging practice
+
+---
+
+# 9. Current Limitations
+
+Single player
+
+No difficulty levels
+
+No timer
+
+No score saving
+
+No leaderboard
+
+No replay option
+
+No history tracking
+
+---
+
+# 10. Next Level Development Plan
+
+LEVEL 1
+Functions
+
+Create:
+
+generate_number()
+
+guess()
+
+show_result()
+
+---
+
+LEVEL 2
+Difficulty Levels
+
+Easy
+
+Medium
+
+Hard
+
+---
+
+LEVEL 3
+Scoring System
+
+More score
+
+↓
+
+Fewer guesses
+
+---
+
+LEVEL 4
+Replay Feature
+
+Play Again?
+
+---
+
+LEVEL 5
+Leaderboard
+
+Store:
+
+Name
+
+Score
+
+---
+
+LEVEL 6
+File Handling
+
+Save scores
+
+---
+
+LEVEL 7
+OOP Version
+
+Classes:
+
+Game
+
+Player
+
+ScoreTracker
+
+---
+
+LEVEL 8
+GUI Version
+
+Tkinter
+
+---
+
+LEVEL 9
+Web Version
+
+HTML
+
+CSS
+
+JS
+
+Python Backend
+
+---
+
+# 11. Learning Outcomes
+
+After completing this project:
+
+Understand loops
+
+Understand validation
+
+Learn randomness
+
+Improve logic building
+
+Learn debugging
+
+Understand interactive programs
+
+---
+
+# 12. Resume Description
+
+Developed an interactive Number Guessing Game using Python implementing random number generation, input validation, loops, conditional logic, and score tracking to strengthen problem-solving and user interaction concepts.
